@@ -8,10 +8,8 @@ class MainRouter extends Component {
 	 render() {
         return (
             <div>
-            <Switch>
                 <Route path="/option1"  component={Option1} />
                 <Route path="/option2"  component={Option2} /> 
-            </Switch>
             </div>
         )
     }

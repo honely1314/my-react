@@ -15,10 +15,13 @@ class Routes extends Component {
         return (
             <Router history={hashHistory}>
                 <Route exact path="/login"  component={App} />
-               <Layoutcomponent path="/layout"  component={Layoutcomponent}>
+                <Layoutcomponent path="/layout"  component={Layoutcomponent} />
+               {
+               /*	<Layoutcomponent path="/layout"  component={Layoutcomponent}>
                 	<Route path="/option1"  component={Option1} />
                 	<Route path="/option2"  component={Option2} />
-            	</Layoutcomponent>
+            	</Layoutcomponent>*/
+               }
             </Router>
         )
     }
